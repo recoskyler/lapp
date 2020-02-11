@@ -1,0 +1,145 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    width: 50%;
+    min-width: 800px;
+}
+
+#main {
+    position: absolute;
+    width: 610px;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px #000;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #EFEFEF;
+}
+
+#appTitle {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 40px;
+    color: #313131;
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    user-select: none;
+}
+
+#title {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 30px;
+    color: #313131;
+    padding: 10px 0px;
+    margin: 0 auto 0 auto;
+    background-color: #EFEFEF;
+    box-shadow: 0 0 10px 2px #000;
+    font-family: 'Montserrat', sans-serif;
+    user-select: none;
+}
+
+#cont {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 10;
+}
+
+#appLAPP {
+    display: none;
+    position: relative;
+    width: 100%;
+    height: 20px;
+}
+
+#back {
+    display: block;
+    position: absolute;
+    font-size: 12px;
+}
+
+.appBlock {
+    display: inline-block;
+    position: relative;
+    float: left;
+    width: 160px;
+    height: 160px;
+    padding: 5px;
+    margin: 15px;
+    border: 1.5px solid #919191;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.1s border-color;
+    transition-timing-function: ease-in-out;
+    cursor: pointer;
+}
+
+.appBlock:hover {
+    border-color:#F50057;
+}
+
+.appIcon {
+    display: block;
+    position: relative;
+    height: 116px;
+    padding: 2px;
+    margin: 5px auto;
+    user-select: none;
+}
+
+.appLabel {
+    display: block;
+    position: relative;
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    color: #515151;
+    font-family: 'Montserrat', sans-serif;
+    user-select: none;
+}
+
+.lapp {
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+    margin:0;
+    float: left;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: 0.1s border-color;
+    transition-timing-function: ease-in-out;
+}
+
+.lapp:hover {
+    border-color: #313131;
+}
+
+.sel {
+    border-color: #F50057;
+}

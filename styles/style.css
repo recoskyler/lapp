@@ -18,17 +18,17 @@ hr {
 }
 
 #main {
-    position: absolute;
-    width: 610px;
-    height: auto;
+    display: block;
+    position: relative;
+    width: 60%;
+    min-width: 610px;
+    height: fit-content;
+    min-height: 300px;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 0 10px 2px #000;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin: 20px auto;
+    top: 200px;
     background-color: #EFEFEF;
 }
 
@@ -61,14 +61,6 @@ hr {
     user-select: none;
 }
 
-#cont {
-    display: block;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
-    z-index: 10;
-}
-
 #appLAPP {
     display: none;
     position: relative;
@@ -77,9 +69,14 @@ hr {
 }
 
 #back {
+    display: inline-block;
+    position: relative;
+}
+
+#appDoc {
     display: block;
-    position: absolute;
-    font-size: 12px;
+    position: relative;
+    padding: 10px;
 }
 
 .appBlock {
